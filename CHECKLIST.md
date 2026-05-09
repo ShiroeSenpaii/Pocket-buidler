@@ -1,0 +1,13 @@
+# Manual Test Checklist
+- [ ] `npm install`
+- [ ] `npm run build`
+- [ ] `npm run cap:add:android` (first time only)
+- [ ] `npm run cap:sync`
+- [ ] `npm run apk:debug`
+- [ ] Install APK on Android phone
+- [ ] Coins increase over time
+- [ ] Buy/upgrade 3+ buildings
+- [ ] Quests progress and claim works
+- [ ] Reload app and confirm save persists
+- [ ] Confirm offline earnings summary
+- [ ] Reset save confirmation works

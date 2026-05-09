@@ -1,0 +1,27 @@
+{
+  "name": "pocket-districts",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test:run": "vitest run",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "apk:debug": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "@capacitor/core": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^2.1.8",
+    "@capacitor/cli": "^7.1.0"
+  }
+}
