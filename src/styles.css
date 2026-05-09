@@ -1,0 +1,7 @@
+:root{font-family:Inter,system-ui;background:#070b16;color:#e8eeff}body{margin:0}#app{max-width:430px;margin:0 auto;min-height:100vh;position:relative}
+canvas{width:100% !important;height:auto !important;display:block}
+.overlay{padding:8px 10px 24px}.header{display:flex;justify-content:space-between;background:#111a2d;padding:10px;border-radius:12px;border:1px solid #2f3f66}.offline{margin-top:8px;background:#192440;padding:8px;border-radius:10px;animation:pop .3s}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0}.stats span{background:#111a2d;padding:6px;border-radius:8px;font-size:12px}
+.sheet{background:#0d1426;border-radius:14px;padding:10px;display:flex;flex-direction:column;gap:8px;max-height:40vh;overflow:auto}.card{background:#152242;border:1px solid #304a88;padding:10px;border-radius:12px}.card.locked{opacity:.6}.card button{width:100%;padding:12px;border:none;background:#2f6bff;color:white;border-radius:10px}.card button.tap{transform:scale(.98)}
+.quests{margin-top:10px;background:#0d1426;padding:10px;border-radius:12px}.quest{display:flex;justify-content:space-between;gap:6px;margin-top:6px}.quest button{padding:8px}
+#reset{margin-top:10px;width:100%;padding:12px;background:#60233a;color:#fff;border:none;border-radius:10px}
+@keyframes pop{from{transform:translateY(4px);opacity:.1}to{transform:translateY(0);opacity:1}}
