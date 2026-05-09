@@ -1,0 +1,12 @@
+# Manual Test Checklist
+- [ ] Run `npm install`
+- [ ] Run `npm run dev`
+- [ ] Open mobile viewport (390x844)
+- [ ] Coins increase over time
+- [ ] Buy/upgrade at least 3 buildings
+- [ ] Verify building unlock thresholds
+- [ ] Confirm daily quest progress + claim reward
+- [ ] Reload page and verify save persists
+- [ ] Simulate offline by waiting/reloading and confirm summary
+- [ ] Press reset save and confirm reset state
+- [ ] Run `npm run build`
