@@ -60,9 +60,10 @@ npm run apk:debug
 `android/app/build/outputs/apk/debug/app-debug.apk`
 
 ## Build Android APK (GitHub)
-- Run workflow **Android APK** from Actions.
-- Download artifact `pocket-districts-debug-apk`.
-- The previous generic build/test workflow was removed to avoid merge-blocking in restricted npm environments.
+- Go to **Actions** → **Android APK**.
+- Tap **Run workflow** (manual trigger only).
+- Open the completed run and download artifact `pocket-districts-debug-apk`.
+- Extract and install `app-debug.apk` on your phone.
 
 ## Mobile testing instructions
 - Install debug APK on Android device.
